@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 86vh;
+    box-sizing: border-box;
+    background: #0a174e;
+    overflow: hidden;
+}
+
+
+.illustration {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration img {
+    width: 80%;
+    max-width: 500px;
+}
+
+.text-section {
+    flex: 1;
+    padding-left: 50px;
+}
+
+.text-section h1 {
+    font-size: 72px;
+    margin: 0;
+    color: white;
+}
+
+.text-section p {
+    font-size: 28px;
+    line-height: 1.5;
+    margin: 20px 0;
+    color: white;
+}
+
+.text-section button {
+    background: white;
+    color: #0a174e;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-section button:hover {
+    background: #eaeaea;
+}
+
+.arrow {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.zoho-blogs-section {
+    padding: 60px 40px;
+    background: #fff;
+}
+
+.zoho-logo {
+    color: #1F2B45;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.zoho-blogs-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.blog-card {
+    width: 100%;
+    max-width: 350px;
+    background: #fff;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    max-height: 200px
+}
+
+.blog-content {
+    padding: 20px;
+}
+
+.blog-title {
+    font-size: 20px;
+    color: #0a3305;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.blog-date {
+    color: #0a3305;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.blog-description {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.explore-btn-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.explore-btn {
+    background: #1F2B45;
+    color: white;
+    border: none;
+    padding: 14px 26px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.3s;
+}
+
+.explore-btn:hover {
+    background: #3e4f72;
+}
+
+.arrow {
+    font-size: 20px;
+}
+
+/* Monday */
+.monday-section {
+    padding: 60px 30px;
+    background-color: #f7faf6;
+    /* text-align: center; */
+}
+
+.monday-logo {
+    font-size: 48px;
+    color: #1F2B45;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.monday-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.monday-card {
+    background: white;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.monday-card:hover {
+    transform: translateY(-5px);
+}
+
+.monday-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.monday-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.monday-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0a3305;
+    margin-bottom: 10px;
+}
+
+.monday-date {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0a3305;
+    margin-bottom: 12px;
+}
+
+.monday-desc {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.monday-cta {
+    margin-top: 40px;
+}
+
+.monday-cta {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* .explore-btn {
+  background: #0a3305;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease;
+}
+
+.explore-btn:hover {
+  background: #085c04;
+} */
+
+.arrow {
+    font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+    .monday-card {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .monday-card {
+        max-width: 100%;
+    }
+
+    .monday-logo {
+        font-size: 36px;
+    }
+}
+
+
+/* ✅ Responsive Design */
+@media (max-width: 1024px) {
+    .zoho-blogs-container {
+        justify-content: center;
+    }
+
+    .blog-card {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-card {
+        max-width: 100%;
+    }
+
+    .zoho-logo {
+        font-size: 36px;
+        /* text-align: center; */
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .container,
+    .career-section {
+        flex-direction: column;
+        /* text-align: center; */
+        /* padding: 40px 20px; */
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .illustration,
+    .image {
+        margin-bottom: 30px;
+        /* justify-content: center; */
+    }
+
+    .illustration img,
+    .image img {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .text-section,
+    .career-text-section {
+        padding-left: 0;
+    }
+
+    .text-section h1,
+    .career-text-section h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .text-section p,
+    .career-text-section p {
+        font-size: 18px;
+        line-height: 1.4;
+        margin: 10px 0 20px;
+    }
+
+    .text-section button,
+    .career-text-section button {
+        /* margin: 0 auto; */
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .arrow {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-section h1 {
+        font-size: 28px;
+    }
+
+    .text-section p {
+        font-size: 16px;
+    }
+
+    .text-section button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .arrow {
+        font-size: 16px;
+    }
+}

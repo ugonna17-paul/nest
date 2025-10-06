@@ -1,0 +1,69 @@
+.meet-section {
+    padding: 80px 20px;
+    background-color: #f4f6f8;
+}
+
+.meet-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* important for responsiveness */
+    gap: 40px;
+}
+
+.meet-text {
+    flex: 1 1 500px;
+}
+
+.meet-section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2B45;
+    margin-bottom: 20px;
+}
+
+.meet-section-subtitle {
+    font-size: 18px;
+    color: #4a4a4a;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.team-image-wrapper {
+    flex: 1 1 500px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.team-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .meet-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .meet-text,
+    .team-image-wrapper {
+        flex: 1 1 100%;
+    }
+
+    .meet-section-title {
+        font-size: 28px;
+    }
+
+    .meet-section-subtitle {
+        font-size: 16px;
+        margin: 0 auto;
+    }
+}
