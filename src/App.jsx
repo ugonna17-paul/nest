@@ -8,7 +8,7 @@ import About from './pages/About-us/About'
 import Blog from './pages/Blog/Blog'
 import Home from './pages/Landing-page/Home'
 import Career from './pages/Career/Career'
-import Zoho from './pages/zoho'
+import Zoho from './pages/Zoho'
 import ScrollToTop from './components/ScrollToTop'
 import Monday from './pages/Monday'
 function App() {
